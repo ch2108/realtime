@@ -1,0 +1,37 @@
+
+
+
+HTTP Request
+
+
+Client                        Server
+------                        ------  ["Hello", "how are you?", "i'm fine"]
+
+Request         ------->      Response
+               <-------
+
+
+
+["Hello", "how are you?"]
+
+
+
+
+Websockets
+
+Socket.io  - evented socket system
+
+// client code
+socket.on('newMessage', message => {
+
+
+})
+
+
+
+// server code
+
+socket.emit('newMessage', "i'm fine");
+
+
+

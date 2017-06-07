@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Socket Chat!</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.2/socket.io.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h1>Socket Chat!</h1>
+  <h3 class='userWelcome'>Hello <span class="username"></span>!</h3>
+
+  <form class='usernameForm'>
+    <fieldset>
+      <legend>Select Username:</legend>
+      <input type="text" class='newUsername' placeholder='Username' required>
+      <button>Confirm</button>
+    </fieldset>
+  </form>
+
+  <h3>Current user: <span class='activeUsers'></span></h3>
+
+  <form class='newMessageForm'>
+    <input type="text" class='newMessage' required>
+    <button>Send</button>
+  </form>
+
+  <ul id="messageList"></ul>
+
+  <script src="/client.js"></script>
+</body>
+</html>

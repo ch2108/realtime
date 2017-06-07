@@ -1,0 +1,7 @@
+.newMessageForm, .userWelcome {
+  display: none;
+}
+
+.serverMessage {
+  font-style: italic;
+}

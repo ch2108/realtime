@@ -1,0 +1,17 @@
+{
+  "name": "realtime-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Cade Nichols <c@accesscode.io>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "socket.io": "^2.0.2"
+  }
+}
